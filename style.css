@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  background-image: url(light.png);
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+#heading-item {
+  margin: .5em;
+  font-size: 2em;
+}
+
+#menu-items {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-right: 10px;
+}
+
+.menu-item {
+  margin: .5em;
+}
+
+#center {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+#heading {
+  margin-top: 2em;
+  font-size: 5em;
+  margin-bottom: .2em;
+}
+
+#following {
+  font-size: 3em;
+  margin-bottom: .4em;
+}
+
+#textbox {
+  margin: 1em;
+}
+
+#extra {
+  margin top: .2em;
+}
+
+#options {
+  margin-top: 7em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.group {
+  margin: .3em;
+}
+
+#more {
+  margin-right: .5em;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: row
+}
+
+.info {
+  margin: .1em;
+}
