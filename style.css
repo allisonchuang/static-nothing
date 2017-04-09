@@ -16,9 +16,6 @@ body {
   /* learned gradient from https://css-tricks.com/tinted-images-multiple-backgrounds/*/
   background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 10, 28, 1) 100%), url(Optimized-sky.jpg);
   background-size: cover;
-  /*font-family: 'Lato', sans-serif;*/
-  /*font-family: 'Palanquin', sans-serif;*/
-  /*font-family: 'Pavanam', sans-serif;*/
   font-family: 'Pontano Sans', sans-serif;
   color: rgba(255, 255, 255, .95);
 }
@@ -26,12 +23,8 @@ body {
 #footer {
   background-color: rgba(0, 10, 28, 1);
   background-size: cover;
-  /*font-family: 'Lato', sans-serif;*/
-  /*font-family: 'Palanquin', sans-serif;*/
-  /*font-family: 'Pavanam', sans-serif;*/
   font-family: 'Pontano Sans', sans-serif;
-  color: rgba(230, 230, 230, .9);
-  margin-top: 0;
+  color: rgba(255, 255, 255, .95);
 }
 
 #menu {
@@ -41,15 +34,23 @@ body {
   align-items: center;
 }
 
-#heading-items {
+#name-links {
   margin: .8em;
-  margin-left: 1.3em;
+}
+
+#name-links a {
+  color: rgba(255, 255, 255, .95);
+  text-decoration: none;
+}
+
+#name-items {
+  margin-left: 1em;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-#heading-item {
+#name {
   margin: .2em;
   font-size: 2em;
 }
@@ -63,8 +64,20 @@ body {
 }
 
 .menu-item {
-  margin: .8em;
+  margin: 1.3em;
   font-size: 1.1em;
+}
+
+.menu-item:hover {
+  background-color: rgba(255, 255, 255, .2);
+  border-radius: .2em;
+  padding: .3em;
+  margin: 1em;
+}
+
+#menu-items a {
+  color: rgba(255, 255, 255, .95);
+  text-decoration: none;
 }
 
 #sign-in {
@@ -89,7 +102,7 @@ body {
 }
 
 #heading {
-  margin-top: 2em;
+  margin-top: 1.5em;
   font-size: 5em;
   font-weight: bold;
   margin-bottom: .2em;
@@ -137,35 +150,76 @@ button[type=create] {
   color: rgba(250, 250, 250, 1);
 }
 
-#extra {
-  margin-top: .9em;
-}
-
-#options {
-  margin-top: 3em;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-}
-
 button:hover {
   box-shadow: .3em .3em .2em rgba(0, 0, 0, 1);
   background-color: rgba(100, 176, 131, 1);
 }
 
+#extra {
+  margin-top: .9em;
+}
+
+#extra a {
+  color: rgba(255, 255, 255, .95);
+}
+
+#options {
+  border-top: .1em solid;
+  border-color: rgba(255, 255, 255, .1);
+  margin-top: 7em;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex-direction: row;
+  margin-bottom: 2em;
+}
+
 .group {
-  margin: .3em;
+  margin-top: 2.5em;
+  font-size: .8em;
+}
+
+.group li {
+  margin: 0 0 .3em 0;
+}
+
+.group a {
+  text-decoration: none;
+  color: rgba(170, 170, 235, .95);
+}
+
+.link-heading {
+  font-size: 1.3em;
+  color: rgba(255, 255, 255, .95);
 }
 
 #more {
-  margin-right: .7em;
+  background-color: rgba(0, 20, 40, 1);
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
   flex-direction: row;
 }
 
+#info-list {
+  margin-right: 2.5em;
+  display: flex;
+  flex-direction: row;
+}
+
 .info {
-  margin: .2em;
+  padding: .4em;
+  margin: .9em;
+}
+
+.info a {
+  color: rgba(255, 255, 255, .95);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  list-style-position:inside;
+  margin: 0;
+  padding: 0;
 }
