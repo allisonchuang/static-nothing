@@ -12,7 +12,7 @@ body {
 
 #main {
   /* learned gradient from https://css-tricks.com/tinted-images-multiple-backgrounds/*/
-  background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 10, 28, 1) 100%), url(sky.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 10, 28, 1) 100%), url(Optimized-sky.jpg);
   background-size: cover;
   font-family: 'Lato', sans-serif;
   color: rgba(230, 230, 230, .9);
