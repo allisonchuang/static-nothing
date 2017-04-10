@@ -8,5 +8,5 @@ The flex boxes and hover effects came were very helpful in creating a clean page
 My drop-down menu/checkbox hack was created kind of inefficiently. I had to create a separate div for the menu and the call "display: none" to hide divs that I didn't want.
 
 # Layout stage screenshots
-Format: ![Alt Text](Screen-Shot1.png)
-Format: ![Alt Text](Screen-Shot2.png)
+![Alt Text](Screen-Shot1.png)
+![Alt Text](Screen-Shot2.png)
