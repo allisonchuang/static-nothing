@@ -10,6 +10,26 @@
 
   <body>
     <div id="full-page">
+      <input type="checkbox" id="drop">
+
+      <!-- only shown when dropdown menu button is pressed -->
+      <div id="dropdown">
+        <div id="drop-top">
+          <div id="drop-left">
+            <i class="fa fa-asterisk fa-3x" aria-hidden="true"></i>
+            <div id="drop-name">Allison Chuang</div>
+          </div>
+          <label for="drop"><div id="exit"><i class="fa fa-times fa-2x" aria-hidden="true"></i></div></label>
+        </div>
+        <div id="drop-menu">
+          <div class="drop-item">Product</div>
+          <div class="drop-item">Pricing</div>
+          <div class="drop-item">Support</div>
+          <div class="drop-item">Sign in</div>
+        </div>
+      </div>
+
+      <!-- main body of page -->
       <div id="main">
         <div id="menu">
           <div id="name-links"><a href="#">
@@ -22,7 +42,8 @@
             <li><a href="#"><div class="menu-item">Product</div></a></li>
             <li><a href="#"><div class="menu-item">Pricing</div></a></li>
             <li><a href="#"><div class="menu-item">Support</div></a></li>
-            <li><a href="#"><div id="sign-in">Sign in</div></a></li>
+            <li><a href="#"><div class="menu-item" id="sign-in">Sign in</div></a></li>
+            <label for="drop"><div id="menu-button">Menu</div></label>
           </ul>
         </div>
 
@@ -41,10 +62,11 @@
         </div>
       </div>
 
+      <!-- Holds all link headers and extra info -->
       <div id="footer">
         <div id="options">
           <ul class="group">
-            <div class="link-heading"><li>Link Heading</li></div>
+            <li class="group-head"><div class="link-heading">Link Heading</div><div class="plus">+</div></li>
             <a href="#"><li>link 1</li></a>
             <a href="#"><li>link 2</li></a>
             <a href="#"><li>link 3</li></a>
@@ -53,7 +75,7 @@
           </ul>
 
           <ul class="group">
-            <div class="link-heading"><li>Link Heading</li></div>
+            <li class="group-head"><div class="link-heading">Link Heading</div><div class="plus">+</div></li>
             <a href="#"><li>link 1</li></a>
             <a href="#"><li>link 2</li></a>
             <a href="#"><li>link 3</li></a>
@@ -62,7 +84,7 @@
           </ul>
 
           <ul class="group">
-            <div class="link-heading"><li>Link Heading</li></div>
+            <li class="group-head"><div class="link-heading">Link Heading</div><div class="plus">+</div></li>
             <a href="#"><li>link 1</li></a>
             <a href="#"><li>link 2</li></a>
             <a href="#"><li>link 3</li></a>
@@ -71,7 +93,7 @@
           </ul>
 
           <ul class="group">
-            <div class="link-heading"><li>Link Heading</li></div>
+            <li class="group-head"><div class="link-heading">Link Heading</div><div class="plus">+</div></li>
             <a href="#"><li>link 1</li></a>
             <a href="#"><li>link 2</li></a>
             <a href="#"><li>link 3</li></a>
